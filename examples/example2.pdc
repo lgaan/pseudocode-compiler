@@ -1,0 +1,6 @@
+var <- 1 + 10
+
+IF var == 11
+    OUTPUT var
+ELSE
+    OUTPUT "not 11"
