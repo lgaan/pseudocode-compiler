@@ -1,5 +1,7 @@
 var <- 1 + 10
 
+// This is a comment
+
 IF var == 11
     OUTPUT var
 ELSE

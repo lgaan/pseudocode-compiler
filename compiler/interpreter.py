@@ -116,7 +116,7 @@ class Interpreter:
             return "No content"
 
         for i, line in enumerate(self.content.splitlines()):
-            if len(line.split(" ")) == 1 and line == "" or line.startswith("#"):
+            if len(line.split(" ")) == 1 and line == "" or line.startswith("//"):
                 continue
 
             try:
