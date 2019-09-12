@@ -1,0 +1,13 @@
+# Comments are made with #
+
+var <- "variables are assigned with <-"
+
+OUTPUT "You can output variables or text using OUTPUT"
+OUTPUT var
+
+IF var == "You can make if statements"
+    OUTPUT "Like so"
+ELSE
+    var <- "You can make else statements"
+
+# To run this, use `python compiler <file>.<extension>`
